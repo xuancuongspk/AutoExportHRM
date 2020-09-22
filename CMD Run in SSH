@@ -1,5 +1,5 @@
 # CMD Run in SSH
-mysql HR -uhr -phr <./c1.sql | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g"> c1.csv
+# mysql HR -uhr -phr <./c1.sql | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g"> c1.csv
 # file .sql
 SELECT `hs_hr_leave`.`Leave_Date`,                                                                                                                                                                                                                      
        `hs_hr_leave`.`Leave_Length_hours`,                                                                                                                                                                                                              
