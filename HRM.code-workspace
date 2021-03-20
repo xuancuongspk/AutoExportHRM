@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "Lives-Docker-Stack",
+			"path": "..\\Lives-Docker-Stack"
 		}
 	],
 	"settings": {}
